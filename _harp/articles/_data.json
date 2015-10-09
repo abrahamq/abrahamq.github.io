@@ -3,5 +3,10 @@
     "title": "Counting Instructions With PIN", 
     "date": "", 
     "description": "Learn how to use Intel's PIN tool"
+  },
+  "clearingCMOS": {
+    "title": "Clearing CMOS memory on Lenovo u410", 
+    "date": "", 
+    "description": "The one where I realize that I almost fried my laptop"
   }
 }
