@@ -26,6 +26,7 @@ Possible new features:
 * A slider control for how fast the game updates
 * A (semi) infinite board where you can zoom into or out of different regions (and that gets smaller as more of the board is explored by cells.
 
+    
 # Here is the code:
 
 ```python
@@ -114,12 +115,6 @@ Possible new features:
    main()  
    pass
 ```
-
-
-
-
-
-
 
 
 
