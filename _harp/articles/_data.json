@@ -1,4 +1,10 @@
 {
+  "conwayjs": {
+    "title": "Conway's game of life as an interactive js application", 
+    "date": "Oct. 2nd, 2015", 
+    "description": "Where I continue my fascination with Conway's game of life"
+  },
+
   "countingWithPin": {
     "title": "Counting Instructions With PIN", 
     "date": "", 
@@ -8,5 +14,15 @@
     "title": "Clearing CMOS memory on Lenovo u410", 
     "date": "", 
     "description": "The one where I realize that I almost fried my laptop"
+  },
+  "conwayPyGame": {
+    "title": "Conway's Game of Life in PyGame", 
+    "date": "", 
+    "description": "The one where I write a PyGame wrapper around my earlier GOL implementation"
+  },
+  "conwayGamePython": {
+    "title": "Conway's Game of Life", 
+    "date": "", 
+    "description": "simple console based game of life in python"
   }
 }
