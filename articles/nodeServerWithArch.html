@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/main.css"></head><body><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a></nav><h1>How I set up my arch machine to use it as a node serve:</h1><p>First up, I installed ufw, a firewall that is supposed to be easy to use- the name literally means 
+<!DOCTYPE html><html><head><link rel="stylesheet" href="/main.css"></head><body><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a><a href="https://github.com/abrahamq">Github</a></nav><h1>How I set up my arch machine to use it as a node serve:</h1><p>First up, I installed ufw, a firewall that is supposed to be easy to use- the name literally means 
 &quot;Uncomplicated FireWall&quot;. Here are the commands I ran to get ufw set up: </p>
 <p>sudo pacman -Sy ufw 
 sudo ufw allow SSH    - so my current ssh connection doesn&#39;t get cut off :) 
@@ -33,4 +33,4 @@ if the app crashes. </p>
 <p>npm install -g pm2</p>
 <p>Now I pulled in the node project with git and did: </p>
 <p>pm2 start <app .js> (in reality I have a process.json that describes some more stuff that I want pm2 to do). </app></p>
-<p>Now you should be able to see the app at your domain. </p><footer><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a></nav></footer></body></html>
+<p>Now you should be able to see the app at your domain. </p><footer><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a><a href="https://github.com/abrahamq">Github</a></nav></footer></body></html>
