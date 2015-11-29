@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="/main.css"></head><body><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a></nav><h1>I use harpjs as a simple http static server for this blog.</h1><p>Here&#39;s how I set it up: </p>
+<ol>
+<li>Install npm if you don&#39;t have it. <pre><code>osx:  homebrew install node
+</code></pre></li>
+<li>do a global install of harp: <pre><code>sudo npm install -g harp
+</code></pre></li>
+<li><p>Now we can get started with the app. Make a _harp directory to keep source files. Harp will not serve anything that beings with an underscore so this will keep our source files from getting served. </p>
+</li>
+<li><p>Harp will begin by rendering index.jade if you have it in the root of the directory. So create a index.jade with just a </p>
+<pre><code>&lt;h1&gt; Hello World &lt;/h1&gt;
+</code></pre><p>and try serving it by doing </p>
+<pre><code>harp server
+</code></pre><p>inside the _harp directory </p>
+</li>
+<li><p>Harp can work by either being the server, as we just invoked it, or by compiling the source files into html and css. We can invoke it to compile by doing: </p>
+<pre><code>harp compile _harp .
+</code></pre></li>
+</ol><footer><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a></nav></footer></body></html>

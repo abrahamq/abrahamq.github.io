@@ -1,4 +1,5 @@
-#How I set up my arch machine to use it as a node serve: 
+# How I set up my arch machine to use it as a node serve: 
+
 
 First up, I installed ufw, a firewall that is supposed to be easy to use- the name literally means 
 "Uncomplicated FireWall". Here are the commands I ran to get ufw set up: 
