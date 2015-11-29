@@ -1,4 +1,10 @@
 {
+  "nodeServerWithArch": {
+    "title": "How to set up a node server on Arch Linux", 
+    "date": "Nov. 29, 2015", 
+    "description": "I set up a server for a creative media class project"
+  },
+
   "conwayjs": {
     "title": "Conway's game of life as an interactive js application", 
     "date": "Oct. 2nd, 2015", 
