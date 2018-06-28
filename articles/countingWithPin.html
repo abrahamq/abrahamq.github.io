@@ -13,14 +13,12 @@ inject. Here&#39;s an example of this:</p>
 <pre><code>VOID Instruction(INS ins, VOID *v){
     INS_InsertCall(ins, IPOINT_BEFORE, (AFUNPTR)count, IARG_END); 
     //this tells pin to insert the function count before every instruction. 
-}
-</code></pre><p>The Analysis Routine is a function that can be injected by the Instrumentation
+}</code></pre><p>The Analysis Routine is a function that can be injected by the Instrumentation
 routine. PIN generally tries to inline these in order to make execution go
 faster.</p>
 <pre><code>VOID docount() {
  icount++;
-}
-</code></pre><p>Here&#39;s what the code to do this looks like (from the Intel examples, which are
+}</code></pre><p>Here&#39;s what the code to do this looks like (from the Intel examples, which are
 released under GPL):</p>
 <pre><code>#include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -88,5 +86,4 @@ int main(int argc, char * argv[])
     PIN_StartProgram();
 
     return 0;
-}
-</code></pre><footer><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a><a href="https://github.com/abrahamq?tab=repositories">Github</a></nav></footer></body></html>
+}</code></pre><footer><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a><a href="https://github.com/abrahamq?tab=repositories">Github</a></nav></footer></body></html>

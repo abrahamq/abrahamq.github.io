@@ -27,10 +27,9 @@ my server blocks look like for this server, which has a domain of abrahamq.mit.e
     location / {
         proxy_pass http://localhost:8080;
     }
-} 
-</code></pre><p>next up, I installed pm2, a process manager for node. It will make sure that node gets restarted if it 
+} </code></pre><p>next up, I installed pm2, a process manager for node. It will make sure that node gets restarted if it 
 if the app crashes. </p>
 <p>npm install -g pm2</p>
 <p>Now I pulled in the node project with git and did: </p>
-<p>pm2 start <app .js> (in reality I have a process.json that describes some more stuff that I want pm2 to do). </app></p>
+<p>pm2 start &lt;app.js&gt; (in reality I have a process.json that describes some more stuff that I want pm2 to do). </p>
 <p>Now you should be able to see the app at your domain. </p><footer><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a><a href="https://github.com/abrahamq?tab=repositories">Github</a></nav></footer></body></html>

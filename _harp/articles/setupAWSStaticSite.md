@@ -1,0 +1,15 @@
+# This is a generic guide to seting up a static site using AWS
+
+1. Register domain name using route 53 on aws.
+
+2. Create an s3 bucket and upload your static site to that bucket.
+
+3. Create a CloudFront distribution, selecting the s3 bucket as the origin domain name.
+    1. Set the distribution to redirect http to https
+    2. Select a custom SSL Certificate and request one with ACM.
+    3. Add a CNAME that matches your domain name
+    4. Deploy your cloudfront distribution, this will take a while (~10 minutes for me in us-east-1)
+4. Once deployed, go back to route 53 and create a record set. Choose yes on the alias radio 
+button and then click on Alias Target, choosing your cloudfront distribution as the target. 
+
+5. You're all done!
