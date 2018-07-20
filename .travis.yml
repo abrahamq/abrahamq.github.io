@@ -1,0 +1,27 @@
+dist: trusty
+language: node_js
+node_js:
+  - "8.9.3"
+sudo: false
+
+branches:
+  only:
+    - master
+
+install:
+  - npm i
+  - npm install -g harp
+
+script:
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run lint && npm run build-prod; fi
+
+deploy:
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: abesprojects
+    region: us-east-1
+    skip_cleanup: true
+    local_dir: dist/
+    on:
+      branch: master
