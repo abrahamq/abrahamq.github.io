@@ -9,11 +9,14 @@
 <li>Select a custom SSL Certificate and request one with ACM.</li>
 <li>Add a CNAME that matches your domain name</li>
 <li>Deploy your cloudfront distribution, this will take a while (~10 minutes for me in us-east-1)</li>
+<li>Edit the origin so that &quot;Restrict Bucket Access&quot; is checked. Now create an
+origin access identity that will let cloudfront read the s3 bucket contents. You can
+either have cloudfront modify the bucket policy, or you can do it yourself.</li>
 </ol>
 </li>
-<li><p>Once deployed, go back to route 53 and create a record set. Choose yes on the alias radio 
-button and then click on Alias Target, choosing your cloudfront distribution as the target. </p>
-</li>
-<li><p>You&#39;re all done!</p>
-</li>
+<li>Once deployed, go back to route 53 and create a record set. Choose yes on the alias radio 
+button and then click on Alias Target, choosing your cloudfront distribution as the target. </li>
+</ol>
+<ol start="5">
+<li>You&#39;re all done!</li>
 </ol><footer><nav><a href="/">Home</a><a href="/about">About</a><a href="/resume">Resume</a><a href="/todo">Todo</a><a href="https://github.com/abrahamq?tab=repositories">Github</a></nav></footer></body></html>
