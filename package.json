@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/abrahamq/abrahamq.github.io/issues"
   },
-  "homepage": "https://github.com/abrahamq/abrahamq.github.io#readme"
+  "homepage": "https://github.com/abrahamq/abrahamq.github.io#readme",
+  "dependencies": {
+    "harp": "^0.30.0"
+  }
 }
