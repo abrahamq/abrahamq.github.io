@@ -17,3 +17,6 @@ button and then click on Alias Target, choosing your cloudfront distribution as 
 
 
 5. You're all done!
+
+6. You can also set up a terraform script to do this all for you, like I
+have done [here](https://github.com/abrahamq/SapienSense/blob/gh-pages/deploy.tf).
