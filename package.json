@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/abrahamq/abrahamq.github.io#readme",
   "dependencies": {
-    "harp": "^0.30.0"
+    "harp": "^0.40.3"
   }
 }
