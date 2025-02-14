@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Conway's Game of Life"
 date: 2015-10-10
 categories: python programming

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Counting instructions with Intel's PIN tool"
 date: 2015-10-09
 ---

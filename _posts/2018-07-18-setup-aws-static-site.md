@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Setting Up a Static Site Using AWS"
 date: 2018-07-18
 categories: guides aws

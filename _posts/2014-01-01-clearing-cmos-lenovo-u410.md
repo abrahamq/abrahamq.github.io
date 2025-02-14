@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Clearing the CMOS memory on Lenovo U410"
 date: 2014-01-01
 categories: hardware troubleshooting

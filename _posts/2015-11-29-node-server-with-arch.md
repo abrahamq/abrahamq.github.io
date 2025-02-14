@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "How I set up my arch machine to use it as a node server"
 date: 2015-11-29
 categories: tutorials server

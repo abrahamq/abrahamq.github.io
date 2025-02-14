@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "A better blog"
 date: 2025-02-14 10:34:41 -0600
 categories: jekyll update

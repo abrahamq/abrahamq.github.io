@@ -31,9 +31,11 @@ twitter_username: aquintero_prog
 github_username: abrahamq
 
 # Build settings
-theme: jekyll-theme-clean-blog
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
