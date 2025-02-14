@@ -1,8 +1,0 @@
-h1 Abe's Project Blog
-
-ul
-  each article, slug in public.articles._data
-    li
-      a(href="/articles/#{ slug }.html") #{ article.title } 
-      p
-        !=article.description
