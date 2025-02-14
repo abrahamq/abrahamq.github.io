@@ -65,6 +65,8 @@ kramdown:
       line_numbers: true
       start_line: 1
 
+include: ["_pages"]
+
 defaults:
   # _posts
   - scope:
