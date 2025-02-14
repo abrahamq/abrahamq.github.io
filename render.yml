@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: abesprojects
+    runtime: static
+    buildCommand: bundle exec jekyll build
+    staticPublishPath: _site
