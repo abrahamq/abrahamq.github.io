@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Counting instructions with Intel's PIN tool"
-date: 2014-03-21
+date: 2015-10-09
 ---
 
 In 6.823, my computer architecture class we're using [PIN](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool), which is a program made by Intel that lets you insert your own instructions into a target executable.
