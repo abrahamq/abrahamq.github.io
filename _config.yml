@@ -64,3 +64,17 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      classes: wide

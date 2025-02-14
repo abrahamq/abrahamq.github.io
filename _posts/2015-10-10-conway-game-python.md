@@ -2,7 +2,7 @@
 layout: single
 title: "Conway's Game of Life"
 date: 2015-10-10
-categories: python programming
+classes: wide
 ---
 
 My Freshman year I started writing a python script to play Conway's game of life.
